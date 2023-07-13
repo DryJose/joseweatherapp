@@ -1,0 +1,59 @@
+.item {
+  display: flex;
+  justify-content: center;
+}
+
+.firstdata {
+  margin-top: 25px;
+}
+
+.seconddata {
+  display: flex;
+  justify-content: space-around;
+}
+
+.city {
+  display: flex;
+  flex-direction: column;
+}
+
+.temp{
+  font-size: 10ch;
+  font-weight: bold;
+}
+
+.text {
+  font-weight: 600;
+    margin-top: 2px;
+    color: rgb(109, 109, 109);
+}
+
+.weather {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: medium;
+  color: rgb(109, 109, 109);
+}
+
+.param {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap:wrap;
+  margin-top: 50px;
+  height: 1000px;
+}
+
+.paramtext {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  width: 160px;
+  font-weight: bold;
+  color: rgb(83, 83, 83);
+}
+
+ .icons { 
+  height: 3rem;
+  width: 3rem;
+ }
